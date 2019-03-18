@@ -1,0 +1,22 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-coverage": "nyc --reporter=html mocha",
+    "test": "mocha ./test/*.js --reporter mochawesome --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "chai-http": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mochawesome": "^3.0.3",
+    "nyc": "^13.0.1"
+  }
+}
